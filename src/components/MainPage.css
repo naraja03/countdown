@@ -1,0 +1,68 @@
+#timer {
+    display: flex;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#timerButtons button {
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.display {
+    font-size: 8rem;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.display:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.display:active,
+.display:focus {
+    outline: 2px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#main-body {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#CountDownInput {
+    padding-top: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#CountDownInput input {
+    padding: 5px 20px;
+}
